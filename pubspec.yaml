@@ -1,0 +1,19 @@
+name: blur_preview
+description: A blur hash images.
+version: 0.0.1
+homepage: https://ali.ir
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^3.0.2            # W, https://pub.dev/packages/image     {crop, rotate}
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
